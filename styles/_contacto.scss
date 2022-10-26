@@ -1,0 +1,56 @@
+#bodycontacto{
+    height: 100vh;
+    header{
+        height: 10vh;
+        .navbar{
+            background-color: map-get($paleta-colores, "marron" ) ;
+            color:map-get($paleta-colores, "negro" );
+        }
+    }
+    main{
+        height: 60vh;
+        h2{
+            color: map-get($paleta-colores, "celeste" );
+        }
+        .btn{
+            background-color:map-get($paleta-colores, "marron" ); 
+        }
+        iframe{
+            // Responsive mapa
+            @include tablet {
+                width: 60vh;
+            }
+            @include mobile {
+                width: 50vh;
+            }
+            
+        }
+        // Responsive main
+        @include mobile {
+            height: 95vh;
+        }
+        @include tablet {
+            height: 95vh;
+        }
+
+
+    }
+    footer{
+        height: 40vh;
+        background-color:map-get($paleta-colores, "marron" );
+        // Responsive footer
+        @include mobile {
+            height: 55vh;
+        }
+        @include tablet {
+            height: 55vh;
+        }
+    }
+    // Responsive body
+    @include mobile {
+        height: 160vh;
+    }
+    @include tablet{
+        height: 155vh;
+    }
+}

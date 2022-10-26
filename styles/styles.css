@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bodyinicio header {
+  font-family: "Poppins", sans-serif, black;
+}
+#bodyinicio header .navbar {
+  background-color: rgb(167, 99, 40);
+  color: black !important;
+}
+#bodyinicio main h1 {
+  color: rgb(41, 167, 147);
+}
+#bodyinicio main h3 {
+  color: rgb(41, 167, 147);
+}
+#bodyinicio main .fa-solid {
+  font-size: 2em;
+  color: rgb(167, 99, 40);
+  border-radius: 50%;
+  transition: 400ms;
+}
+#bodyinicio main .fa-solid:hover {
+  transition: border 0.3s;
+  color: rgb(41, 167, 147);
+}
+#bodyinicio main .card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+#bodyinicio main .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+#bodyinicio main .btn {
+  background-color: rgb(167, 99, 40);
+}
+#bodyinicio footer {
+  background-color: rgb(167, 99, 40);
+}
+
+#bodynosotros {
+  height: 113vh;
+}
+@media screen and (max-width: 576px) {
+  #bodynosotros {
+    height: 120vh;
+  }
+}
+#bodynosotros header {
+  height: 10vh;
+  font-family: "Poppins", sans-serif, black;
+}
+#bodynosotros header .navbar {
+  background-color: rgb(167, 99, 40);
+  color: black;
+}
+#bodynosotros main {
+  height: 60vh;
+}
+#bodynosotros main h1 {
+  color: rgb(41, 167, 147);
+}
+#bodynosotros main .btn {
+  background-color: rgb(167, 99, 40);
+}
+#bodynosotros footer {
+  height: 43vh;
+  background-color: rgb(167, 99, 40);
+}
+@media screen and (max-width: 576px) {
+  #bodynosotros footer {
+    height: 50vh;
+  }
+}
+
+#bodyproductos header .navbar {
+  background-color: rgb(167, 99, 40);
+  color: black;
+}
+#bodyproductos main h1 {
+  color: rgb(41, 167, 147);
+}
+#bodyproductos main h3 {
+  color: rgb(41, 167, 147);
+}
+#bodyproductos main .card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+#bodyproductos main .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+#bodyproductos main .btn {
+  background-color: rgb(167, 99, 40);
+}
+#bodyproductos footer {
+  background-color: rgb(167, 99, 40);
+}
+
+.bodycategorias {
+  height: 113vh;
+}
+.bodycategorias header {
+  height: 10vh;
+}
+.bodycategorias header .navbar {
+  background-color: rgb(167, 99, 40);
+  color: black;
+}
+.bodycategorias main {
+  height: 60vh;
+}
+.bodycategorias main h1 {
+  color: rgb(41, 167, 147);
+}
+.bodycategorias main h3 {
+  color: rgb(41, 167, 147);
+}
+.bodycategorias main .card {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+.bodycategorias main .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.bodycategorias main .btn {
+  background-color: rgb(167, 99, 40);
+}
+@media screen and (max-width: 576px) {
+  .bodycategorias main {
+    height: 135vh;
+  }
+}
+.bodycategorias footer {
+  height: 43vh;
+  background-color: rgb(167, 99, 40);
+}
+@media screen and (max-width: 576px) {
+  .bodycategorias footer {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bodycategorias {
+    height: 195vh;
+  }
+}
+
+#bodyveterinaria header .navbar {
+  background-color: rgb(167, 99, 40);
+  color: black;
+}
+#bodyveterinaria main h1 {
+  color: rgb(41, 167, 147);
+}
+#bodyveterinaria main h3 {
+  color: rgb(41, 167, 147);
+}
+#bodyveterinaria main .btn {
+  background-color: rgb(167, 99, 40);
+}
+#bodyveterinaria footer {
+  background-color: rgb(167, 99, 40);
+}
+
+#bodycontacto {
+  height: 100vh;
+}
+#bodycontacto header {
+  height: 10vh;
+}
+#bodycontacto header .navbar {
+  background-color: rgb(167, 99, 40);
+  color: black;
+}
+#bodycontacto main {
+  height: 60vh;
+}
+#bodycontacto main h2 {
+  color: rgb(41, 167, 147);
+}
+#bodycontacto main .btn {
+  background-color: rgb(167, 99, 40);
+}
+@media screen and (max-width: 768px) {
+  #bodycontacto main iframe {
+    width: 60vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  #bodycontacto main iframe {
+    width: 50vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  #bodycontacto main {
+    height: 95vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #bodycontacto main {
+    height: 95vh;
+  }
+}
+#bodycontacto footer {
+  height: 40vh;
+  background-color: rgb(167, 99, 40);
+}
+@media screen and (max-width: 576px) {
+  #bodycontacto footer {
+    height: 55vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #bodycontacto footer {
+    height: 55vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  #bodycontacto {
+    height: 160vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #bodycontacto {
+    height: 155vh;
+  }
+}/*# sourceMappingURL=styles.css.map */

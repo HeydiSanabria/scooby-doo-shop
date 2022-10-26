@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#bodyinicio{
+    header{
+        font-family: 'Poppins', sans-serif, black;
+        .navbar{
+            background-color: map-get($paleta-colores, "marron" ) ;
+            color: map-get($paleta-colores, "negro" ) !important;
+        }
+    }
+    main{
+        h1{
+            color: map-get($paleta-colores, "celeste" );
+        }
+        h3{
+            color: map-get($paleta-colores, "celeste" );
+        }
+        .fa-solid {
+            font-size: 2em;
+            color: map-get($paleta-colores, "marron" );
+            border-radius: 50%;
+            transition: 400ms;
+        }
+        .fa-solid:hover {
+            transition: border 0.3s;
+            color: map-get($paleta-colores, "celeste" );
+        }
+        .card{
+            box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+            transition: all 400ms ease;
+        }
+        .card:hover{
+            box-shadow: 5px 5px 20px rgba(0,0,0,0.4) ;
+            transform: translateY(-3%);
+        }
+        .btn{
+            background-color:map-get($paleta-colores, "marron" ); 
+        }
+    }
+    footer{
+        background-color:map-get($paleta-colores, "marron" );
+        }
+        
+    }

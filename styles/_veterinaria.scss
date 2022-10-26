@@ -1,0 +1,22 @@
+#bodyveterinaria{
+    header{
+        .navbar{
+            background-color: map-get($paleta-colores, "marron" ) ;
+            color: map-get($paleta-colores, "negro" );
+        }
+    }
+    main{
+        h1{
+            color: map-get($paleta-colores, "celeste" );
+        }
+        h3{
+            color: map-get($paleta-colores, "celeste" );
+        }
+        .btn{
+            background-color:map-get($paleta-colores, "marron" ); 
+        }
+    }
+    footer{
+        background-color:map-get($paleta-colores, "marron" );
+    }
+}

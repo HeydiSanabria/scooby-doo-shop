@@ -1,0 +1,31 @@
+#bodynosotros{
+    height: 113vh;
+    @include mobile {
+        height: 120vh;
+    }
+    header{
+        height: 10vh;
+        font-family: 'Poppins', sans-serif, black;
+        .navbar{
+            background-color: map-get($paleta-colores, "marron" ) ;
+            color:map-get($paleta-colores, "negro" );
+        }
+    }
+    main{
+        height: 60vh;
+        h1{
+            color:map-get($paleta-colores, "celeste" );
+        }
+        .btn{
+            background-color:map-get($paleta-colores, "marron" ); 
+        }
+    }
+    footer{
+        height: 43vh;
+        background-color:map-get($paleta-colores, "marron" );
+        // Responsive footer
+        @include mobile {
+            height: 50vh;
+        }
+    }
+}
