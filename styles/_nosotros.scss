@@ -1,8 +1,5 @@
 #bodynosotros{
     height: 113vh;
-    @include mobile {
-        height: 120vh;
-    }
     header{
         height: 10vh;
         font-family: 'Poppins', sans-serif, black;
@@ -19,6 +16,9 @@
         .btn{
             background-color:map-get($paleta-colores, "marron" ); 
         }
+        @include tablet {
+            height: 70vh;
+        }
     }
     footer{
         height: 43vh;
@@ -27,5 +27,11 @@
         @include mobile {
             height: 50vh;
         }
+    }
+    @include mobile {
+        height: 120vh;
+    }
+    @include tablet {
+        height: 123vh;
     }
 }

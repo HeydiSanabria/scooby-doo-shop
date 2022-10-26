@@ -27,10 +27,10 @@
         }
         // Responsive main
         @include mobile {
-            height: 95vh;
+            height: 100vh;
         }
         @include tablet {
-            height: 95vh;
+            height: 100vh;
         }
 
 
@@ -48,9 +48,9 @@
     }
     // Responsive body
     @include mobile {
-        height: 160vh;
+        height: 165vh;
     }
     @include tablet{
-        height: 155vh;
+        height: 160vh;
     }
 }

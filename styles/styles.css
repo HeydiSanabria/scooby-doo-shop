@@ -47,11 +47,6 @@
 #bodynosotros {
   height: 113vh;
 }
-@media screen and (max-width: 576px) {
-  #bodynosotros {
-    height: 120vh;
-  }
-}
 #bodynosotros header {
   height: 10vh;
   font-family: "Poppins", sans-serif, black;
@@ -69,6 +64,11 @@
 #bodynosotros main .btn {
   background-color: rgb(167, 99, 40);
 }
+@media screen and (max-width: 768px) {
+  #bodynosotros main {
+    height: 70vh;
+  }
+}
 #bodynosotros footer {
   height: 43vh;
   background-color: rgb(167, 99, 40);
@@ -76,6 +76,16 @@
 @media screen and (max-width: 576px) {
   #bodynosotros footer {
     height: 50vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  #bodynosotros {
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  #bodynosotros {
+    height: 123vh;
   }
 }
 
@@ -202,12 +212,12 @@
 }
 @media screen and (max-width: 576px) {
   #bodycontacto main {
-    height: 95vh;
+    height: 100vh;
   }
 }
 @media screen and (max-width: 768px) {
   #bodycontacto main {
-    height: 95vh;
+    height: 100vh;
   }
 }
 #bodycontacto footer {
@@ -226,11 +236,11 @@
 }
 @media screen and (max-width: 576px) {
   #bodycontacto {
-    height: 160vh;
+    height: 165vh;
   }
 }
 @media screen and (max-width: 768px) {
   #bodycontacto {
-    height: 155vh;
+    height: 160vh;
   }
 }/*# sourceMappingURL=styles.css.map */
