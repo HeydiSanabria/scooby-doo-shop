@@ -1,14 +1,14 @@
 #bodycontacto{
-    height: 150vh;
+    height: 100vh;
     header{
         height: 10vh;
         .navbar{
-            background-color:blue ;
+            background-color:map-get($paleta-colores, "marron" ) ;
             color:map-get($paleta-colores, "negro" );
         }
     }
     main{
-        height: 100vh;
+        height: 50vh;
         h2{
             color: map-get($paleta-colores, "celeste" );
         }
