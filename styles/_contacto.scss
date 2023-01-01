@@ -1,5 +1,5 @@
 #bodycontacto{
-    height: 120vh;
+    height: 150vh;
     header{
         height: 10vh;
         .navbar{
@@ -8,7 +8,7 @@
         }
     }
     main{
-        height: 70vh;
+        height: 100vh;
         h2{
             color: map-get($paleta-colores, "celeste" );
         }
